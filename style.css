@@ -1,13 +1,26 @@
 .intro-message {
-	text-align: center;
-	padding-top: 20%;
-	color: #fff;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    color: #686868;
 }
 
 body {
-	background: url(intro-bg.jpg) no-repeat center;
+    background: url(background.jpeg) no-repeat; opacity: 0.9;
 }
 
-.signup-form {
-	color: #fff;
-}
+.button { /*adjust the roundness*/
+    border-radius: 4px;
+    moz-border-radius: 4px;
+    webkit-border-radius: 4px;
+
+ 
+    /*change border colour*/
+    border:1px #000000 solid;}
+
+
+.mc_embed_signup_scroll {color: #000000;} 
+
+.service-info {
+    color: #000000;
+    font-size: 12px;}
